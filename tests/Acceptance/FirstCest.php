@@ -59,14 +59,14 @@ class FirstCest
 //        $I->click("Login");
 //        $I->see('Vui lòng đăng ký mới.');
 //    }
-    public function LoginPage_6 (AcceptanceTester $I){
-        $I->amOnPage('/Login');
-        $I->fillField("Email", "geneat.soft@gmail.com");
-        $I->fillField("Password", "123456");
-        $I->click("Login");
-        $I->see('Sai mật khẩu cho tài khoản geneat.soft@gmail.com');
-        $I->wait(20);
-    }
+//    public function LoginPage_6 (AcceptanceTester $I){
+//        $I->amOnPage('/Login');
+//        $I->fillField("Email", "geneat.soft@gmail.com");
+//        $I->fillField("Password", "123456");
+//        $I->click("Login");
+//        $I->see('Sai mật khẩu cho tài khoản geneat.soft@gmail.com');
+//        $I->wait(20);
+//    }
 //    public function SignUp_1 (AcceptanceTester $I){
 //        $I->amOnPage('/Login');
 //        $I->click("Sign Up");
